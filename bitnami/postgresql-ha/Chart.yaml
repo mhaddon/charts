@@ -4,7 +4,7 @@ apiVersion: v2
 appVersion: 11.11.0
 dependencies:
   - name: common
-    repository: https://charts.bitnami.com/bitnami
+    repository: https://github.com/mhaddon/charts.git
     version: 1.x.x
 description: Chart for PostgreSQL with HA architecture (using Replication Manager (repmgr) and Pgpool).
 engine: gotpl
